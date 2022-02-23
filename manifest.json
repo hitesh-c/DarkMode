@@ -1,0 +1,20 @@
+{
+    "name" : "Universal Dark Mode",
+    "version" : "0.0.1",
+    "manifest_version": 2,
+    "browser_action" : {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+        "permissions" : ["activeTab","tabs"],
+        "content_scripts" : [
+            {
+                "matches" : ["http://*/*","https://*/*"],
+                "js":["script.js"]
+            }
+        ],
+        "background": {
+            "scripts": ["popup.js"]
+        }
+
+    }
