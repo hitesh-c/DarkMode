@@ -1,4 +1,4 @@
-# DarkMode
+# DarkMode Chrome Extension
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/65300791/155879445-368b573e-a65d-484a-9a5e-713e1b48b818.png">
 
